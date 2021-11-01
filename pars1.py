@@ -6,7 +6,7 @@ from telebot import  types
 
 driver= webdriver.Chrome()
 
-bot=telebot.TeleBot('2008265532:AAEW26K99QjKFICtZvy2IL8-UrW7T4KTcO4')
+bot=telebot.TeleBot('Tokken')
 
 @bot.message_handler(commands=['start'])
 def start(message):
